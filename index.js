@@ -13,7 +13,7 @@ function func() {
     for (let i = 0; i <= cities.length; i++) {
         if (cities[i] == 'Islamabad') {
             alert("Islamabad is the cleanest city of Pakistan!")
-            mess.textContent = ("Islamabad")
+            mess.textContent = ("𓂀 ℍ𝕖𝕝𝕝𝕠 𝕎𝕖𝕝𝕝ℂ𝕠𝕞𝕖 𝕥𝕠 𝕀𝕤𝕝𝕒𝕞𝕒𝕓𝕒𝕕 𓂀")
             // mess.style.color="red"
 
         }
