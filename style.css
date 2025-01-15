@@ -1,0 +1,79 @@
+body{
+    background-color: #b29f94;
+    }
+    
+            
+            
+             
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 22px ;
+      
+    }
+    .container h1{
+        position: relative;
+        top: 200px;
+        font-size: 50px;
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-variant: small-caps;
+      transition: all 1s ease;
+      
+    
+    }
+    .container h1:hover{
+    transform: scale(0.8);
+    color: brown;
+    border-bottom:  1px solid gray;
+    }
+    
+    
+    
+    button {
+        position: relative;
+        top: 200px;
+       margin: 0px auto;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: rgb(248, 239, 239);            
+       box-shadow: 0 0 15px #583737;
+       border-radius: 10px;
+       display: block;
+       background-color: #2b3815;
+       width: 200px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-variant: small-caps;
+       font-weight: 600;
+     }
+    
+     button:hover{
+        background-image: linear-gradient(to right, #cfb51e 0%, #b29f94  51%, #472a0e  100%);
+       background-position: right center; /* change the direction of the change here */
+       color: #0b0f0b;
+       text-decoration: none;
+       transform: scale(0.9);
+       font-weight: 600;
+    
+     }
+     p{
+        text-align: center;
+position: relative;
+top: 200px;
+transition: all .5s;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-variant: small-caps;
+font-size: 50px;
+text-decoration: underline;
+
+        
+     }
+     p:hover{
+        transform: scale(0.8);
+        color: rgb(146, 11, 11);
+        
+     }
+    
